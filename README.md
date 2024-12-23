@@ -16,25 +16,26 @@ A full-stack real-time music streaming application inspired by Spotify, built wi
 ## File Structure 📂
 
 ## Backend (Node.js + Express)
-/models: Defines MongoDB schemas for users, albums, and songs.
-/routes: Contains API routes for user authentication, music data, and chat.
-/controllers: Implements business logic for routes.
-server.js: Entry point for the backend, sets up Express and connects to MongoDB.
+-/models: Defines MongoDB schemas for users, albums, and songs.
+-/routes: Contains API routes for user authentication, music data, and chat.
+-/controllers: Implements business logic for routes.
+-server.js: Entry point for the backend, sets up Express and connects to MongoDB.
+
 ## Frontend (React)
-/src/components: Contains reusable components like Player, Dashboard, and Chat.
-/src/pages: Includes main pages such as Home, Admin, and Library.
-/src/utils: Utility functions for API calls and state management.
-App.js: Sets up routing and the main layout for the application.
-index.js: Entry point for rendering the React application.
+-/src/components: Contains reusable components like Player, Dashboard, and Chat.
+-/src/pages: Includes main pages such as Home, Admin, and Library.
+-/src/utils: Utility functions for API calls and state management.
+-App.js: Sets up routing and the main layout for the application.
+-index.js: Entry point for rendering the React application.
 
 ---
 
 ## Technologies Used 💻
 
-**Frontend**: React, Redux, CSS Modules
-**Backend**: Node.js, Express
-**Database**: MongoDB
-**Real-Time Features**: WebSockets (Socket.IO)
+-**Frontend**: React, Redux, CSS Modules
+-**Backend**: Node.js, Express
+-**Database**: MongoDB
+-**Real-Time Features**: WebSockets (Socket.IO)
 
 ---
 
